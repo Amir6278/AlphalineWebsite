@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_full {
+    height: 10vh;
+    background-color: #4D6299;
+}
+
+.content_part_full {
+    background-color: #fff;
+}
+
+.sidebar_part {
+    background-color: #252c34;
+    min-height: 90vh;
+}
+
+.user_part {
+    text-align: center;
+    padding: 20px 0px 0px;
+    border-bottom: 1px solid black;
+    margin: 0px -15px;
+}
+
+.user_part img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.user_part h4 {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+.user_part p {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.user_part i {
+    color: green;
+}
+
+.menu {
+    margin: 5px -15px;
+    text-align: left;
+}
+
+.menu ul {
+    width: 100%;
+    overflow: hidden;
+    margin-left: -15px;
+}
+
+.menu ul li {
+    margin-right: -15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 38px;
+    font-family: verdana;
+    display: block;
+    text-decoration: none;
+    /* margin-right: 10px; */
+    padding-left: 15px;
+    border-bottom: 1px solid #17181F;
+    transition: linear 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #4D6299;
+}
+
+.custom_bread_part {
+    background-color: #f7f7f7;
+}
+
+.bread ul li {
+    float: left;
+}
+
+.bread ul li a {
+    color: #000;
+    display: block;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: verdana;
+}
+
+.bread ul li a:hover {
+    transition: 0.2s;
+    color: #4D6299;
+}
+
+.bread ul li a li {
+    margin-left: 5px;
+    color: #eee;
+}
+
+.main_content {
+    margin: 20px 5px;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.card_header_title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.table_form_btn {
+    text-align: right;
+}
+
+.custom_view_table tr td:first-child {
+    font-weight: bold;
+    width: 29%;
+}
+
+.submit_btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mycontainer {
+    position: relative;
+    top: 10vh;
+}
+
+.mycontainer .card {
+    background-color: rgba(231, 225, 216, 0.6);
+    width: 30%;
+}
+
+.footer_full {
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+

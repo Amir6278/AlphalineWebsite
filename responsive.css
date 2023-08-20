@@ -1,0 +1,85 @@
+@media only screen and (max-width: 760px) {
+    .bannerText{
+        margin-top: 5px;
+        margin: 0 auto;
+       
+     
+    }
+    body{
+        overflow-x:hidden;
+        
+        
+    }
+    .bannerText h1{
+        font-size: 40px;
+    }
+    .aboutText{
+        text-align: center;
+    }
+    
+  .work h2{
+      font-size: 28px;
+  }
+  .companytext{
+    margin: 0 auto;
+  }
+  .companytext h2{
+      font-size: 32px;
+   
+      
+  }
+  
+  
+}
+@media only screen and (max-width: 420px) {
+    body{
+        overflow-x:hidden!important;
+        
+        
+    }
+ .bannerText{
+    
+    margin: 0 auto;
+ 
+}
+.bannerText h1{
+    font-size: 31px;
+}
+.work h2{
+    font-size: 24px;
+}
+.wantToHear h2{
+    font-size: 21px;
+}
+main{
+    margin: 0 auto;
+}
+.servicebox h3{
+   font-size:22px;
+}
+.servicebox p{
+ font-size:15px;
+}
+
+@media only screen and (max-width: 300px) {
+.bannerText{
+    margin: 0 auto;
+}
+.bannerText h1{
+    font-size: 30px;
+}
+.work h2{
+    font-size: 20px;
+}
+.wantToHear h2{
+    font-size: 20px;
+}
+main{
+    margin: 0 auto;
+}
+.servicebox h3{
+   font-size:17px;
+}
+.servicebox p{
+ font-size:11px;
+   }
