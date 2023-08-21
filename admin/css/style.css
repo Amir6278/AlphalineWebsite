@@ -154,6 +154,20 @@ a {
     background-color: rgba(231, 225, 216, 0.6);
     width: 30%;
 }
+@media only screen and (max-width: 1100px) {
+
+.mycontainer .card {
+    width: 50%;
+}
+
+}
+@media only screen and (max-width: 900px) {
+
+.mycontainer .card {
+    width: 80%;
+}
+
+}
 
 .footer_full {
     height: 8vh;
